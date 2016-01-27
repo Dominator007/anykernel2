@@ -1,6 +1,6 @@
 #!/system/bin/sh
 
-# Custom Kernel Settings for God's Kernel!!
+# Custom Kernel Settings for Dominator Kernel!!
 
 
 PATH=/sbin:/system/sbin:/system/bin:/system/xbin

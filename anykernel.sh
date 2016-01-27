@@ -198,11 +198,11 @@ dump_boot;
 # begin ramdisk changes
 
 #Add custom loader script
-found=$(find init.rc -type f | xargs grep -oh "import /init.god.rc");
-if [ "$found" != 'import /init.god.rc' ]; then
+found=$(find init.rc -type f | xargs grep -oh "import /init.dominator.rc");
+if [ "$found" != 'import /init.dominator.rc' ]; then
 	#append the new lines for this option at the bottom
         echo "" >> init.rc
-	echo "import /init.god.rc" >> init.rc
+	echo "import /init.dominator.rc" >> init.rc
 fi
 
 # end ramdisk changes
