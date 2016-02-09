@@ -166,4 +166,5 @@ replace_string default.prop "ro.secure=0" "ro.secure=1" "ro.secure=0";
 
 write_boot;
 
-## end install 
+## end install
+

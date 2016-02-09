@@ -30,11 +30,11 @@ ui_print " ";
 mkdir -p /tmp/anykernel;
 cd /tmp/anykernel;
 unzip -o $ZIP;
-
 ui_print "   ____   __   _  _  __  __ _   __  ____  __  ____  ";
 ui_print "  (    \ /  \ ( \/ )(  )(  ( \ / _\(_  _)/  \(  _ \ ";
 ui_print "   ) D ((  O )/ \/ \ )( /    //    \ )( (  O ))   / ";
 ui_print "  (____/ \__/ \_)(_/(__)\_)__)\_/\_/(__) \__/(__\_) ";
+
 /sbin/busybox mount /system;
 
 if [ "$(file_getprop /tmp/anykernel/anykernel.sh do.devicecheck)" == 1 ]; then
